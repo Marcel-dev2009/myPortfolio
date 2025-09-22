@@ -1,0 +1,9 @@
+{
+  "name": "my-porfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react-icons": "^5.5.0"
+  }
+}
