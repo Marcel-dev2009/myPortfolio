@@ -13,7 +13,6 @@ import {
 
 import React, { useRef, useState } from "react";
 
-
 interface NavbarProps {
   children: React.ReactNode;
   className?: string;
@@ -51,7 +50,9 @@ interface MobileNavMenuProps {
   isOpen: boolean;
   onClose: () => void;
 }
-
+const Tag : React.FC<React.AnchorHTMLAttributes<HTMLAnchorElement>> = (props) => {
+  return <a {...props}/>
+}
 export const Navbar = ({ children, className }: NavbarProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll({
@@ -249,23 +250,21 @@ export const NavbarLogo = () => {
   );
 };
 
+type NavbarButtonProps = {
+  href?: string;
+  children?: React.ReactNode;
+  className?: string;
+  onClick? : () => void;
+  variant?: "primary" | "secondary" | "dark" | "gradient";
+};
+
 export const NavbarButton = ({
   href,
-  as: Tag = "a",
   children,
   className,
   variant = "gradient",
   ...props
-}: {
-  href?: string;
-  as?: React.ElementType;
-  children: React.ReactNode;
-  className?: string;
-  variant?: "primary" | "secondary" | "dark" | "gradient";
-} & (
-  | React.ComponentPropsWithoutRef<"a">
-  | React.ComponentPropsWithoutRef<"button">
-)) => {
+}: NavbarButtonProps) => {
   const baseStyles =
     "px-4 py-2 rounded-md bg-white button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center";
 
@@ -280,7 +279,7 @@ export const NavbarButton = ({
 
   return (
     <Tag
-      href={href || undefined}
+    href={href || undefined}
       className={cn(baseStyles, variantStyles[variant], className)}
       {...props}
     >

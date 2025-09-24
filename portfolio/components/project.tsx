@@ -17,7 +17,7 @@ function Project() {
             <p>A showcase of the applications and experiments I&apos;ve built so far. Each project reflects both my technical growth and my drive to solve real problems with code. Some are complete, others are still evolving, but together they represent my journey toward building impactful technology — from practical tools like school management systems to creative applications like music players. Every line of code is a step toward the bigger innovations I aim to create in the future.</p>
        </div>
        <div className="flex flex-col md:flex-row gap:0 md:gap-4 flex-wrap justify-center items-center ">
-        <CardContainer>
+        <CardContainer className="inter-var ">
           <CardBody className="bg=gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
           translateZ="50"
@@ -55,7 +55,7 @@ function Project() {
         </div>
           </CardBody>
         </CardContainer> {/* First end */}
-        <CardContainer>
+        <CardContainer className="inter-var">
           <CardBody className="bg=gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
           translateZ="50"
@@ -131,7 +131,7 @@ function Project() {
         </div>
           </CardBody>
         </CardContainer> {/* second end */}
-        <CardContainer>
+        <CardContainer className="inter-var">
           <CardBody className="bg=gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
           translateZ="50"
@@ -169,7 +169,7 @@ function Project() {
         </div>
           </CardBody>
         </CardContainer> {/* second end */}
-        <CardContainer>
+        <CardContainer className="inter-var">
           <CardBody className="bg=gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
           translateZ="50"

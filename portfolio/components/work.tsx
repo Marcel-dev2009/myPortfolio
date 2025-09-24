@@ -9,8 +9,8 @@ function Work() {
    const testimonials = [
   {
     quote:
-      "I’ve watched him grow as a programmer over the years. He’s consistent, hardworking, and always willing to learn new things.",
-    name: "CDSSE Student",
+      "I&apos;ve watched him grow as a programmer over the years. He’s consistent, hardworking, and always willing to learn new things.",
+    name: "CDSS Student",
     title: "Ogechukwu Otitochukwu Blossom",
   },
   {
