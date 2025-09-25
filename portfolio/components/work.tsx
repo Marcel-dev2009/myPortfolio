@@ -110,7 +110,9 @@ function Work() {
      <p className="text-center text-sm md:text-xl ">I divide my work flow into Three primary stages to ensure maximum output and best user experience [UX]</p>
     </div> 
     <div className="flex flex-col md:flex-row gap-2 justify-center items-center mt-10">
-       <div ref={firstRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="border md:w-[25%] bg-black h-[30rem] rounded-br-lg rounded-tl-lg">
+
+       <div ref={firstRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="border-2  md:w-[25%] bg-black h-[30rem] rounded-br-lg rounded-tl-lg">
+         <h4 className=" text-center transform translate-y-[10rem] text-xl font-semibold" >Tap / Hover on the Card</h4>
        <h4 className="text-black  flex justify-center
         transform translate-y-[10rem] font-bold text-xl md:text-2xl 
         "> Planning and Research
@@ -119,13 +121,16 @@ function Work() {
       <p className="font-light md:font-semibold text-sm text-black  flex justify-center
         transform translate-y-[12rem] mx-10">I plan tasks into clear steps and research the best approaches before starting. This keeps my workflow focused, efficient, and less prone to mistakes.</p>        
        </div>
-       <div ref={secondRef} onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}  className="border md:w-[25%] bg-black h-[30rem] rounded-br-lg rounded-tl-lg">
+
+       <div ref={secondRef} onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}  className="border-2 md:w-[25%] bg-white/5 h-[30rem] rounded-br-lg rounded-tl-lg">
+          <h4 className=" text-center transform translate-y-[10rem] text-xl font-semibold" >Tap / Hover on the Card</h4>
         <h4 className="text-black flex justify-center font-bold text-xl md:text-2xl 
         transform translate-y-[10rem]">Designing</h4>
          <p className="font-light md:font-semibold text-sm text-black  flex justify-center
         transform translate-y-[12rem] mx-10">I focus on creating clean, user-friendly layouts that balance function and style, ensuring the final product is both practical and appealing.</p> 
        </div>
-       <div ref={thirdRef} onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}  className="border md:w-[25%] bg-black h-[30rem] rounded-br-lg rounded-tl-lg">
+       <div ref={thirdRef} onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}  className="border-2 md:w-[25%] bg-black h-[30rem] rounded-br-lg rounded-tl-lg">
+           <h4 className=" text-center transform translate-y-[10rem] text-xl font-semibold" >Tap / Hover on the Card</h4>
         <h4 className="text-black flex justify-center font-bold text-xl md:text-2xl 
         transform translate-y-[10rem] "> Development</h4>
         <p className="font-light md:font-semibold text-sm text-black  flex justify-center

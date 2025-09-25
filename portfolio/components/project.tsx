@@ -41,7 +41,7 @@ function Project() {
             as="a"
             href="https://musestreamio.vercel.app/"
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white cursor-pointer"
           >
             View Live →
           </CardItem>

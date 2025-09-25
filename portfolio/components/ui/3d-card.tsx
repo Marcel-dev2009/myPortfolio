@@ -96,9 +96,17 @@ export const CardBody = ({
     </div>
   );
 };
-
+/* interface TagProps {
+  props : any,
+  ref : HTMLDivElement,
+} */
+const Tag = React.forwardRef<HTMLAnchorElement, React.AnchorHTMLAttributes<HTMLAnchorElement>>(
+  (props, ref) => {
+    return <a ref={ref} {...props} />;
+  }
+);
+Tag.displayName = "Tag";
 export const CardItem = ({
- /*  as: Tag = "div", */
   children,
   className,
   translateX = 0,
@@ -109,7 +117,6 @@ export const CardItem = ({
   rotateZ = 0,
   ...rest
 }: {
-  /* as?: React.ElementType; */
   children: React.ReactNode;
   className?: string;
   translateX?: number | string;
@@ -120,7 +127,7 @@ export const CardItem = ({
   rotateZ?: number | string;
   [key: string]: any;
 }) => {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLAnchorElement | null>(null);
   const [isMouseEntered] = useMouseEnter();
 
   useEffect(() => {
@@ -137,13 +144,13 @@ export const CardItem = ({
   };
   // The Tag tag requires mutiple children a type never 
   return (
-    <div
+    <Tag
       ref={ref}
       className={cn("w-fit transition duration-200 ease-linear", className)}
       {...rest}
     >
       {children}
-    </div>
+    </Tag>
   );
 };
 
