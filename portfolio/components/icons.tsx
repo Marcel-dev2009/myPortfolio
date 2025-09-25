@@ -11,22 +11,24 @@ function Icons() {
     <>
     <div className="md:block absolute right-0 top-40 hidden border p-6 rounded-md ">
      <div className="flex gap-10 flex-col">
-          <Link href="https://github.com/Marcel-dev2009">
+          <Link href="https://github.com/Marcel-dev2009" target="_blank">
 <BsGithub size={30} className="hover:scale-50 duration-200 transition-all"/>
           </Link>
-          <Link href="#">
+          <Link href="https://www.figma.com/" target="_blank">
 <PiFigmaLogoLight size={30} fill="pink" className="hover:scale-50 duration-200 transition-all"/>
           </Link>
-          <Link href="#">
+          <Link href="https://wa.me/+2349122040914" target="_blank">
 <FaWhatsapp size={30} fill="green" className="hover:scale-50 duration-200 transition-all"/>
           </Link>
-          <Link href="#">
+          <Link href="https://www.linkedin.com/in/Izuoba-Somtochukwu/
+" target="_blank">
 <FaLinkedin size={30} fill="blue" className="hover:scale-50 duration-200 transition-all"/>
           </Link>
-          <Link href="#">
+          <Link href="https://leetcode.com/u/Marcel29/" target="_blank">
     <SiLeetcode size={30} fill="orange" className="hover:scale-50 duration-200 transition-all"/>
           </Link>
-      <Link href="">
+      <Link href="https://t.me/marcench
+" target="_blank">
       <PiTelegramLogoThin size={30} fill="cyan" className="hover:scale-50 duration-200 transition-all"/>
       </Link>
      </div>

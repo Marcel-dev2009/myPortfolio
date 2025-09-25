@@ -122,7 +122,7 @@ function Work() {
         transform translate-y-[12rem] mx-10">I plan tasks into clear steps and research the best approaches before starting. This keeps my workflow focused, efficient, and less prone to mistakes.</p>        
        </div>
 
-       <div ref={secondRef} onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}  className="border-2 md:w-[25%] bg-white/5 h-[30rem] rounded-br-lg rounded-tl-lg">
+       <div ref={secondRef} onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}  className="border-2 md:w-[25%] bg-black h-[30rem] rounded-br-lg rounded-tl-lg">
           <h4 className=" text-center transform translate-y-[10rem] text-xl font-semibold" >Tap / Hover on the Card</h4>
         <h4 className="text-black flex justify-center font-bold text-xl md:text-2xl 
         transform translate-y-[10rem]">Designing</h4>
