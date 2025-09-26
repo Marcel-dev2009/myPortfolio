@@ -46,7 +46,7 @@ function Expericence() {
          I learnt Javascript to make my website dynamic and although the programming language had a learning curve 
          it was worth it..
          After learning Javascript I built dynamic project that I&apos;m proud of..
-         As I went deeper into Programming I understood that there were frameworks that imporves the Developer Experience(DX) and also ones for the backend development of the web app 
+         As I went deeper into Programming I understood that there were frameworks that improves the Developer Experience(DX) and also ones for the backend development of the web app 
          Not a longer than a month a learnt Node.js for backend development of my projects and managing dependecies
          React for client User Interface , express for API creation and mongoDB for managing user database efficently,
           and securely 
@@ -96,7 +96,7 @@ function Expericence() {
           <div className="mb-8">
            <p className="text-sm md:text-xl">
             At this point I&apos;ve come to realize that web development is just for programming foundation 
-           In the nearest future to come I&apos;ll be pursuing building embedded system with object oriented programming languages that enable robust automation o system 
+           In the nearest future to come I&apos;ll be pursuing building embedded system with object oriented programming languages that enable robust automation of system 
            </p>
            <p className="mt-10 font-bold text-xl md:text-2xl">
             Thanks For coming this far 
